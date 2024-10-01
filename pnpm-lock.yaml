@@ -122,6 +122,8 @@ importers:
         specifier: ^5.3.3
         version: 5.6.2
 
+  packages/tailwind-config: {}
+
   packages/typescript-config: {}
 
   packages/ui:
