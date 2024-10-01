@@ -18,7 +18,7 @@ importers:
         specifier: ^5.4.5
         version: 5.6.2
 
-  apps/docs:
+  apps/merchant-app:
     dependencies:
       '@paytm-wallet/ui':
         specifier: workspace:*
@@ -58,7 +58,7 @@ importers:
         specifier: ^5
         version: 5.6.2
 
-  apps/web:
+  apps/user-app:
     dependencies:
       '@paytm-wallet/ui':
         specifier: workspace:*
@@ -125,7 +125,7 @@ importers:
   packages/tailwind-config:
     devDependencies:
       '@paytm-wallet/typescript-config':
-        specifier: workspace:^
+        specifier: workspace:*
         version: link:../typescript-config
       tailwindcss:
         specifier: ^3.4.13
