@@ -1,0 +1,14 @@
+{
+  "name": "@paytm-wallet/store",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "recoil": "^0.7.7"
+  },
+  "devDependencies": {
+    "@paytm-wallet/typescript-config": "workspace:*"
+  },
+  "exports": {
+    "./balance": "./src/hooks/useBalance"
+  }
+}
