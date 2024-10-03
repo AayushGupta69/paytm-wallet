@@ -10,6 +10,8 @@
     "dist"
   ],
   "exports": {
+    "./styles.css": "./dist/index.css",
+    "./appbar": "./src/appbar.tsx",
     "./button": "./src/button.tsx"
   },
   "scripts": {
