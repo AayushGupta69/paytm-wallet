@@ -8,5 +8,8 @@
   },
   "dependencies": {
     "@prisma/client": "5.20.0"
+  },
+  "exports": {
+    "./client": "./src/index.ts"
   }
 }
