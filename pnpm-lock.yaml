@@ -23,6 +23,9 @@ importers:
       '@paytm-wallet/database':
         specifier: workspace:*
         version: link:../../packages/database
+      '@paytm-wallet/store':
+        specifier: workspace:*
+        version: link:../../packages/store
       '@paytm-wallet/ui':
         specifier: workspace:*
         version: link:../../packages/ui
