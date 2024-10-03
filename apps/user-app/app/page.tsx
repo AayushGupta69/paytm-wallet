@@ -1,10 +1,13 @@
+"use client";
+
+import { signIn, signOut, useSession } from "next-auth/react";
+import { Appbar } from "@paytm-wallet/ui/appbar";
+
 export default function Home() {
+  const session = useSession();
   return (
-    <div className="font-bold">
-      <div className="bg-purple-500">User App</div>
-      <div className="bg-red-500">Red</div>
-      <div className="bg-green-500">Green</div>
-      <div className="bg-blue-500">Blue</div>
+    <div>
+      <Appbar onSignin={signIn} onSignout={signOut} user={session.data?.user} />
     </div>
   );
 }
