@@ -9,6 +9,6 @@
     "@paytm-wallet/typescript-config": "workspace:*"
   },
   "exports": {
-    "./balance": "./src/hooks/useBalance"
+    "./balance": "./src/hooks/useBalance.ts"
   }
 }
