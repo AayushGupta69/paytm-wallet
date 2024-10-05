@@ -10,6 +10,7 @@
     "dist"
   ],
   "exports": {
+    "./select": "./src/select.tsx",
     "./center": "./src/center.tsx",
     "./card": "./src/card.tsx",
     "./styles.css": "./dist/index.css",
