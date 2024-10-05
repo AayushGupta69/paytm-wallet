@@ -10,6 +10,7 @@
     "dist"
   ],
   "exports": {
+    "./card": "./src/card.tsx",
     "./styles.css": "./dist/index.css",
     "./appbar": "./src/appbar.tsx",
     "./button": "./src/button.tsx"
