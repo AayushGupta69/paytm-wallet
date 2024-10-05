@@ -1,0 +1,19 @@
+{
+  "name": "@paytm-wallet/bank-webhook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@paytm-wallet/database": "workspace:*",
+    "@types/express": "^5.0.0",
+    "esbuild": "^0.24.0",
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "@paytm-wallet/typescript-config": "workspace:*"
+  }
+}
