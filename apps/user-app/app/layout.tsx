@@ -3,6 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import "@paytm-wallet/ui/styles.css";
 import { Providers } from "../providers";
+import AppbarClient from "../components/appbar-client";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -27,6 +28,7 @@ export default function RootLayout({
     <html lang="en">
       <Providers>
         <body className={`${geistSans.variable} ${geistMono.variable}`}>
+          <AppbarClient />
           {children}
         </body>
       </Providers>
