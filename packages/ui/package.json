@@ -10,6 +10,7 @@
     "dist"
   ],
   "exports": {
+    "./button": "./src/button.tsx",
     "./styles.css": "./dist/index.css"
   },
   "scripts": {
