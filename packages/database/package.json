@@ -1,0 +1,14 @@
+{
+  "name": "@paytm-wallet/database",
+  "version": "1.0.0",
+  "devDependencies": {
+    "prisma": "^5.20.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.20.0",
+    "bcrypt": "^5.1.1"
+  },
+  "exports": {
+    "./client": "./src/index.ts"
+  }
+}
